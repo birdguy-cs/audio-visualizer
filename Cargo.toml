@@ -1,0 +1,12 @@
+[package]
+name = "audio_visualizer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cpal = { version = "0.18.1", features = ["pulseaudio"] }
+image = "0.25.10"
+macroquad = "0.4.15"
+
+[package.metadata.appimage]
+auto_link = true
